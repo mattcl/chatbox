@@ -12,7 +12,7 @@ default['rabbitmq']['users'] = {
   },
   'weechat_client' => {
     'password' => 'bhkb6AGhGqjXHoEM',
-    'permissions' => '^$ ^$ .*',
+    'permissions' => '.* .* .*',
     'vhost' => '/weechat'
   }
 }
