@@ -1,3 +1,5 @@
+deafult['with_rabbit'] = false
+
 # passwords here should be changed by a wrapper cookbook, role, or environment
 default['rabbitmq']['users'] = {
   'admin' => {
