@@ -10,7 +10,7 @@
 include_recipe 'weechat::default'
 include_recipe 'bitlbee-latest::default'
 
-if node['with_rabbit']
+if node['chatbox']['with_rabbit']
   include_recipe 'rabbitmq::default'
 
   rabbitmq_plugin 'rabbitmq_management' do
